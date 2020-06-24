@@ -7,8 +7,8 @@ from requests import get
 from requests.exceptions import HTTPError
 from urllib.parse import quote_plus
 
-from logs import Logs
-from twitter import Twitter
+from .logs import Logs
+from .twitter import Twitter
 
 # The URL for a GET request to the Wikidata API. The string parameter is the
 # SPARQL query.

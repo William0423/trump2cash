@@ -2,14 +2,14 @@ from datetime import datetime
 from pytest import fixture
 from pytz import utc
 
-from trading import Trading
-from trading import MARKET_TIMEZONE
-from trading import TRADEKING_CONSUMER_KEY
-from trading import TRADEKING_CONSUMER_SECRET
-from trading import TRADEKING_ACCESS_TOKEN
-from trading import TRADEKING_ACCESS_TOKEN_SECRET
-from trading import TRADEKING_ACCOUNT_NUMBER
-from trading import USE_REAL_MONEY
+from .trading import Trading
+from .trading import MARKET_TIMEZONE
+from .trading import TRADEKING_CONSUMER_KEY
+from .trading import TRADEKING_CONSUMER_SECRET
+from .trading import TRADEKING_ACCESS_TOKEN
+from .trading import TRADEKING_ACCESS_TOKEN_SECRET
+from .trading import TRADEKING_ACCOUNT_NUMBER
+from .trading import USE_REAL_MONEY
 
 
 @fixture

@@ -1,9 +1,9 @@
 from datetime import datetime
 from tqdm import tqdm
 
-from analysis import Analysis
-from trading import Trading
-from twitter import Twitter
+from .analysis import Analysis
+from .trading import Trading
+from .twitter import Twitter
 
 # The initial amount in dollars for the fund simulation.
 FUND_DOLLARS = 100000

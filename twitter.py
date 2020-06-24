@@ -11,7 +11,7 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy.streaming import StreamListener
 
-from logs import Logs
+from .logs import Logs
 
 # The keys for the Twitter account we're using for API requests and tweeting
 # alerts (@Trump2Cash). Read from environment variables.

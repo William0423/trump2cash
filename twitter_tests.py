@@ -2,11 +2,11 @@ from pytest import fixture
 from threading import Timer
 from time import sleep
 
-from twitter import Twitter
-from twitter import TWITTER_CONSUMER_KEY
-from twitter import TWITTER_CONSUMER_SECRET
-from twitter import TWITTER_ACCESS_TOKEN
-from twitter import TWITTER_ACCESS_TOKEN_SECRET
+from .twitter import Twitter
+from .twitter import TWITTER_CONSUMER_KEY
+from .twitter import TWITTER_CONSUMER_SECRET
+from .twitter import TWITTER_ACCESS_TOKEN
+from .twitter import TWITTER_ACCESS_TOKEN_SECRET
 
 
 @fixture

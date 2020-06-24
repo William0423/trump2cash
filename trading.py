@@ -9,12 +9,12 @@ from oauth2 import Consumer
 from oauth2 import Client
 from oauth2 import Token
 from os import getenv
-from polygon import RESTClient as PolygonClient
+from polygon.rest import RESTClient as PolygonClient
 from pytz import timezone
 from pytz import utc
 from threading import Timer
 
-from logs import Logs
+from .logs import Logs
 
 # Read the authentication keys for TradeKing from environment variables.
 TRADEKING_CONSUMER_KEY = getenv("TRADEKING_CONSUMER_KEY")

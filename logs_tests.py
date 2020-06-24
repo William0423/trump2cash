@@ -1,7 +1,7 @@
 from pytest import fixture
 
-from logs import Logs
-from logs import LOG_FILE
+from .logs import Logs
+from .logs import LOG_FILE
 
 
 @fixture
